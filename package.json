@@ -1,0 +1,26 @@
+{
+  "homepage": "https://prajwalnangare.github.io",
+  "name": "games-arena",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "gh": "^2.8.9",
+    "gh-pages": "^1.1.0",
+    "pages":"^0.0.16",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+  
+}
